@@ -247,5 +247,5 @@ def connect_proxy():
 
 # run the entire application
 if __name__ == '__main__':
-    print "main running"
+    app.run()
     socketio.run(app)
